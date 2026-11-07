@@ -1,0 +1,27 @@
+{
+    "school": {
+        "Image_to_Hide": "pic1.jpg",
+        "Image_to_Send": "pic21.jpg",
+        "Password": "student"
+    },
+    "hospital": {
+        "Image_to_Hide": "pic2.jpg",
+        "Image_to_Send": "pic21.jpg",
+        "Password": "patient"
+    },
+    "military base": {
+        "Image_to_Hide": "pic3.jpg",
+        "Image_to_Send": "pic21.jpg",
+        "Password": "soldier"
+    },
+    "national park": {
+        "Image_to_Hide": "pic4.jpg",
+        "Image_to_Send": "pic21.jpg",
+        "Password": "animal"
+    },
+    "armory": {
+        "Image_to_Hide": "pic5.jpg",
+        "Image_to_Send": "pic21.jpg",
+        "Password": "weapon"
+    }
+}

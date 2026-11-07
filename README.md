@@ -130,7 +130,7 @@ cd Image-Steganography
 **Install dependencies**
 
 ```bash
-pip install numpy PyWavelets opencv-python Pillow matplotlib
+pip install -r requirements.txt
 ```
 
 **Run the application**
@@ -147,7 +147,7 @@ Select an operation from the terminal:
 | `2` | Decode |
 | `3` | Exit |
 
-Keep the Python script, configuration file and required image assets together in the project directory.
+Run the application from the project root directory and make sure the required image files and configuration paths are available.
 
 ## ▤ Project Structure
 
@@ -156,17 +156,27 @@ Image-Steganography/
 │
 ├── project.py
 ├── information.json
-│
-├── pic1.jpg
-├── pic2.jpg
-├── pic3.jpg
-├── pic4.jpg
-├── pic5.jpg
-├── pic21.jpg
-│
+├── requirements.txt
+├── SETUP.md
 ├── README.md
 ├── LICENSE
-└── .gitignore
+├── .gitignore
+│
+├── Cover_Images/
+│   ├── README.md
+│   ├── pic20.jpg
+│   ├── pic21.jpg
+│   ├── pic22.jpg
+│   ├── pic23.jpg
+│   └── pic24.jpg
+│
+└── Hidden_Images/
+    ├── README.md
+    ├── pic1.jpg
+    ├── pic2.jpg
+    ├── pic3.jpg
+    ├── pic4.jpg
+    └── pic5.jpg
 ```
 
 **Generated outputs:**
